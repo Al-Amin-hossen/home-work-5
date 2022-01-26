@@ -1,0 +1,295 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+}
+/* CSS color Start */
+.tomato{
+    width: 48%;
+    height: 100px;
+    background: Tomato;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    border: 5px solid dodgerblue;
+}
+.dodgerblue{
+    background: DodgerBlue;
+    width: 48%;
+    float: right;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    border: 5px solid tomato;
+}
+.rgb1{
+    width: 48%;
+    height: 100px;
+    background: rgb(100, 180, 255);
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    border: 5px solid rgb(255, 180, 100);
+    margin-top: 10px;
+}
+.rgb2{
+    background: rgb(255, 180, 100);
+    width: 48%;
+    float: right;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    border: 5px solid rgb(100, 180, 255);
+    margin-top: 10px;
+}
+.hex1{
+    width: 48%;
+    height: 100px;
+    background: #00f9c0;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    border: 5px solid #00d9d9;
+    margin-top: 10px;
+}
+.hex2{
+    background: #00d9d9;
+    width: 48%;
+    float: right;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    border: 5px solid #00f9c0;
+    margin-top: 10px;
+}
+.hsl1{
+    width: 48%;
+    height: 100px;
+    background: hsl(100, 100%, 50%);
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+    border: 5px solid hsl(0, 100%, 50%);
+    margin-top: 10px;
+}
+.hsl2{
+    background: hsl(0, 100%, 50%);
+    width: 48%;
+    float: right;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    border: 5px solid hsl(100, 100%, 50%);
+    margin-top: 10px;
+}
+/* CSS color End */
+/* Background Start */
+.bg1{
+    width: 100%;
+    background: rgba(100, 150, 255, 0.3) url("../images/background.jpg") no-repeat center;
+    text-align: center;
+    line-height: 300px;
+    color: lime;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 20px;
+}
+/* Background End */
+/* border start */
+.border1{
+    width: 49%;
+    height: 30px;
+    background: #efefef;
+    border: 5px solid red;
+    display: inline-block;
+}
+.border1{
+    width: 49%;
+    height: 30px;
+    background: #efefef;
+    border: 5px solid red;
+    display: inline-block;
+}
+.border1, .border2, .border3, .border4{
+    width: 48%;
+    height: 30px;
+    background: #efefef;
+    display: inline-block;
+    margin-top: 10px;
+}
+.border1{
+    border: 5px solid black;
+}
+.border2{
+    border: 5px dotted black;
+}
+.border3{
+    border: 5px dashed black;
+}
+.border4{
+    border: 5px double black;
+}
+
+/* border end */
+/* Box model Start */
+.margin{
+    text-align: center;
+    color: red;
+    background: #efefef;
+    width: 100%;
+    height: 400px;
+}
+.border{
+    text-align: center;
+    color: red;
+    background: lime;
+    width: 80%;
+    height: 300px;
+    margin: 10px auto;
+}
+.padding{
+    text-align: center;
+    color: red;
+    background: #efefef;
+    width: 80%;
+    height: 200px;
+    margin: 10px auto;
+}
+.content{
+    text-align: center;
+    color: red;
+    background: #fff;
+    width: 80%;
+    height: 100px;
+    line-height: 100px;
+    margin: 10px auto;
+}
+/* Box model end */
+/* Outline Start */
+.outline{
+    width: 100%;
+    height: 50px;
+    background: #efefef;
+    margin-top: 30px;
+    outline: 5px solid lime;
+    border: 5px solid black;
+    text-align: center;
+}
+/* Outline End */
+/* CSS text Start */
+.text{
+    background: #efefef;
+    margin-top: 30px;
+    text-align: center;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+/* CSS text End */
+/* Z-index start */
+.wrap{
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+}
+.wrap h2{
+    color: red;
+    text-align: center;
+}
+.box1, .box2, .box3{
+    display: inline-block;
+    font-size: 30px;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background: lime;
+    position: absolute;
+    z-index: 150;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: absolute;
+    z-index: 100;
+    text-align: right;
+    top: 150px;
+    left: 130px;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background: blue;
+    position: absolute;
+    color: #fff;
+    left: 200px;
+    top: 250px;
+    z-index: 150;
+}
+
+/* Z-index end */
+/* Css form Start */
+label{
+    font-size: 18px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #09b40f;
+    color: white;
+    font-size: 16px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: lime;
+  }
+  
+ .form {
+    border-radius: 5px;
+    background-color: #efefef;
+    padding: 20px;
+    width: 60%;
+    margin: auto;
+  }
+/* Css form end */
